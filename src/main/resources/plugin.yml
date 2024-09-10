@@ -1,0 +1,12 @@
+name: Essentials
+version: '1.0-SNAPSHOT'
+main: fr.chiroyuki.essentials.Essentials
+api-version: '1.20'
+
+commands:
+  gm:
+    description: change game mode
+    usage: /gm <0|1|2|3>
+  fly:
+    description: change fly status
+    usage: /fly <on|off>
