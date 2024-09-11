@@ -22,7 +22,7 @@ public class HomeCommand implements CommandExecutor {
             return false;
         }
 
-        switch (label.toLowerCase()) {
+        switch (label.toLowerCase()) { //test de commentaire
             case "sethome":
                 if (args.length != 1) {
                     return false;
