@@ -10,3 +10,15 @@ commands:
   fly:
     description: change fly status
     usage: /fly <on|off>
+  home:
+    description: Teleport to your home location.
+    usage: /home <home>
+  homes:
+    description: List all players with homes.
+    usage: /homes
+  sethome:
+    description: Set your home location.
+    usage: /sethome <home>
+  delhome:
+    description: Delete your home location.
+    usage: /delhome <home>
